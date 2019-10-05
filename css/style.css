@@ -236,19 +236,13 @@ h2 {
 
 article{
     position: absolute;
-
     left: 10%;
-
     align: center;
     display: flex;
-/*    flex-direction: row-reverse;*/
     flex-direction: row;
-
     flex-wrap: wrap;
     justify-content: center;
-   /* flex-direction: column;*/
 }
-
 
 
 .personal-image-wrapper{
@@ -260,22 +254,20 @@ article{
     float: left;
     padding: 50px;
     width: 40%;
-
 }
 
 h1 {
-
-
     text-transform: uppercase;
     font-family: 'Mansalva', cursive;
     letter-spacing: 3px;
 }
 
 @media screen and (max-width:800px) {
+
     article{
         justify-content: center;
         left: 1%;
-        top: 10%;
+        top: 5%;
     }
     .personal-description{
         width: 80%;
@@ -286,14 +278,17 @@ h1 {
 
 }
 @media screen and (min-width:801px) {
+
     article{
         justify-content: left;
         left: 10%;
         top: 25%;
     }
+
     .personal-description{
         width: 40%;
     }
+
     h1{
         font-size: 400%;
     }
