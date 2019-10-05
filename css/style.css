@@ -252,7 +252,7 @@ article{
 .personal-description{
     color: #ffdc1a;
     float: left;
-    padding: 50px;
+    padding:  20px 50px;
     width: 40%;
 }
 
@@ -260,6 +260,16 @@ h1 {
     text-transform: uppercase;
     font-family: 'Mansalva', cursive;
     letter-spacing: 3px;
+}
+
+.personal-image{
+    float: left;
+    background: transparent;
+    width: 300px;
+    border: 30px #ffdc1a solid;
+    border-radius: 50%;
+
+
 }
 
 @media screen and (max-width:800px) {
@@ -274,6 +284,15 @@ h1 {
     }
     h1{
         font-size: 230%;
+    }
+    .personal-image{
+        float: left;
+        background: transparent;
+        width: 260px;
+        border: 30px #ffdc1a solid;
+        border-radius: 50%;
+
+
     }
 
 }
@@ -295,13 +314,5 @@ h1 {
 
 
 }
-.personal-image{
-    float: left;
-    background: transparent;
-    width: 300px;
-    border: 30px #ffdc1a solid;
-    border-radius: 50%;
 
-
-}
 
